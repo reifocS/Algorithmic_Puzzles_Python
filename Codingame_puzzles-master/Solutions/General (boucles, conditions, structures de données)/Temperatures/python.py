@@ -6,8 +6,7 @@ import math
 
 n = int(input())  # the number of temperatures to analyse
 temps = input()  # the n temperatures expressed as integers ranging from -273 to 5526
-result = ''
-
+# must find the one that is the closest to zero
 if len(temps) == 0:
     print("0")
 else:
