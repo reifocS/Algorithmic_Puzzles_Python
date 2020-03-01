@@ -16,6 +16,7 @@ def next_sequence(line):
     nextOne.append(str(cpt)+actual)
     return "".join(nextOne)
 
+l = "1"
 n = int(input())
 for i in range(n):
     l = next_sequence(l)
